@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Procura Vagas</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+            Procura Vagas<br />
+            </h1>
+        </header>
+        <form> 
+            <input type="text" name="nome" placeholder="Nome" /><br />
+            <input type="email" name="email" placeholder="E-mail" /><br />
+            <input type="tel" name="Telefone" 
+            placeholder="(xx) xxxxx-xxxx" /><br />
+            <input type="number" name="idade" placeholder="Idade" /><br />
+            <input type="url" name="linkedin" placeholder="LinkedIn URL" /><br/>
+            Urgência<br/>
+            <input type="range" name="nota" min=0 max=100 step=1 /><br/>
+            Preferências<br/>
+            <input type="checkbox" name="dia-da-semana" value=1 /> Domingo<br/>
+            <input type="checkbox" name="dia-da-semana" value=2 /> Segunda-Feira<br/>
+            <input type="checkbox" name="dia-da-semana" value=3 /> Terça-Feira<br/>
+            <input type="checkbox" name="dia-da-semana" value=4 /> Quarta-Feira<br/>
+            <input type="checkbox" name="dia-da-semana" value=5 /> Quinta-Feira<br/>
+            <input type="checkbox" name="dia-da-semana" value=6 /> Sexta-Feira<br/>
+            <input type="checkbox" name="dia-da-semana" value=7 /> Sábado <br/>
+            <input type="radio" name="horario" value="manha" /> Manhã
+            <input type="radio" name="horario" value="tarde" /> Tarde
+            <input type="radio" name="horario" value="noite" /> Noite <br/>
+            <select name="Local"> 
+                <option value="">Selecione o Local</option>
+                <option value="Presencial">Presencial</option>
+                <option value="Híbrido">Híbrido</option>
+                <option valur="Remoto">Remoto</option>
+            </select><br/>
+            Carta de Apresentação <br/>
+            <textarea cols=50 rows=10></textarea><br/>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</buttin>
+        </form>
+    </body>
+</html>
